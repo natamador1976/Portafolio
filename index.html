@@ -10,22 +10,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Portafolio Web Nataly Amador</title>
 </head>
-<body class="d-flex vh-100 text-center bg-p-cover text-dark " style=" background-color: #0d335d;">
+<body class="d-flex vh-100 text-center bg-p-cover text-dark " style=" background-color: #222831;">
+    
     <div class="container-xl  w-100">
         
-        <nav class="navbar navbar-expand-lg justify-content-sm-end flex-sm-column"  style=" background-color: #0d335d;">
+        <nav class="navbar navbar-expand-lg justify-content-sm-end flex-sm-column"  style=" background-color: #222831;">
             <div class="container-fluid">
-                <a class="navbar-brand" style="color: #000; font-size: 45px;" href="#">Portafolio Web</a>
+                <a class="navbar-brand" style="color: #fff; font-size: 45px;" href="#">Portafolio Web</a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#togglefunction" aria-controls="togglefunction" aria-expanded="false" aria-label="Toggle Navigation" >
-                    <i class="bi bi-list text-dark  justify-content-sm-end" ></i>
+                    <i class="bi bi-list text-white  justify-content-sm-end" ></i>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="togglefunction">
+                <div class="collapse navbar-collapse justify-content-end" id="togglefunction" ">
                     <ul class="nav flex-sm-column flex-md-row flex-l-column">
                         <li class="nav-item ">
-                            <a href="index.html" class="nav-link ">Inicio</a>
+                            <a href="index.html" class="nav-link text-white">Inicio</a>
                         </li>
                         <li class="nav-item ">
-                            <a href="galeria.html" class="nav-link ">Galería</a>
+                            <a href="galeria.html" class="nav-link text-white">Galería</a>
                         </li>
                     </ul>
 
@@ -33,30 +34,57 @@
             </div>
 
         </nav>
-        <header>
-           
-        </header>
+        
         <main>
-            <div class="d-flex flex-column container-xl" >
-                <div id="datospersonales " class="mt-5">
-                    <img src="img/perfil.jpg" class="rounded-circle mx-auto d-block " style="width:350px; height:350px; box-shadow: 0px 0px 5px #000 ;" alt="Nataly Y. Amador">
+            <div class="d-flex flex-column container-md" >
+                <div id="datospersonales " class="" style="background-color: #f05454;">
+                    <img src="img/perfil.jpg" class="rounded-circle mx-auto d-block mt-5" style="width:350px; height:350px; box-shadow: 0px 0px 5px #000 ;" alt="Nataly Y. Amador">
                     <div class="container-md p-5">
                         <h2 >Datos Personales</h2>
                         <h3 class=" mt-3">Nataly Y. Amador</h3>
                         <p class=" mt-2" style="font-size:25px;">Estudiante de ingenería en ciencias de la computación.</p>
                     </div>
                 </div>
-                <div id="intereses" class="container-md p-3">
+                <div id="intereses" class="container-md p-5 d-flex flex-column " style="background-color: #dddddd;">
                    
                         <h2 >Intereses</h2>
-                        <p style="font-size:25px;">Plant Lover,Programmer!</p>
+                        <div class="d-flex flex-wrap justify-content-evenly mt-3 ">
+                        
+                            <div class="card mt-2 " style="width: 253px;">
+                                <img src="img/plant.png" alt="">
+                                <div class="card-body card1">
+                                    <h5 class="card-title">Plant Lover</h5>
+                                        <p class="card-text">Una vez que obtienes una planta despues solo quieres mas</p>
+                                </div>
+                            </div>
+                            <div class="card mt-2" style="width: 253px;">
+                                <img src="img/creatividad.png" alt="">
+                                <div class="card-body  card2">
+                                    <h5 class="card-title">Creatividad</h5>
+                                        <p class="card-text"> La creatividad es la inteligencia divirtiendose </p>
+                                </div>
+                            </div>
+                            <div class="card mt-2" style="width: 253px;">
+                                <img src="img/programming.png" alt="">
+                                <div class="card-body card3">
+                                    <h5 class="card-title">Programming</h5>
+                                        <pre class="card-text"> if(sad()==true){
+        sad().stop();
+        beAwesome();}</pre>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                        
                 
                 </div>
+
+               
             </div>
         </main>
         <footer>
             <div>
-                <h3  class="mt-5"style="color:#000; "> &COPY; Desarrollo de Portales Web </h3>
+                <h3  class="mt-5 text-white"style=" background-color:#222831;"> &COPY; Desarrollo de Portales Web </h3>
             </div>
         </footer>
     </div>

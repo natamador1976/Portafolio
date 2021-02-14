@@ -9,7 +9,7 @@ header{
    
 }
 i{
-    color: #000;
+    color: #fff;
     font-size: 40px;
     
 }
@@ -29,7 +29,7 @@ main{
 }
 div ul li a{
     font-size: 25px;
-    color: #000;
+    color: #fff;
 }
 #datospersonales{
     margin-top: 100px;
@@ -43,7 +43,27 @@ div ul li a:hover{
     color: #000;
     transition: border-bottom 1s ease;
 }
-
+#intereses img{
+    height: 250px;
+    width: 250px;
+}
+#interes .card{
+    width: 250px;
+    height: 500px;
+ 
+}
+.card1:hover{
+   background: #f6fa18;
+  
+}
+.card2:hover{
+    background: #18c4e2;
+    
+ }
+ .card3:hover{
+    background: #e91e63;
+    
+ }
 .bg-p-cover{
    background-image: url("../img/chispitas.png");
 
